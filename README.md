@@ -19,12 +19,12 @@ This project is a Flask-based API for generating and solving Sudoku puzzles. It 
 To install this project, clone the repository and install the required Python packages.
 
 ```bash
-git clone https://your-repository-url.git
-cd your-repository-directory
+git clone https://github.com/dimaland1/SudokuGeneratorAPI.git
+cd SudokuGeneratorAPI
 pip install -r requirements.txt
 ```
 
-## How It Works
+## How It Works
 
 The API uses the Sudoku class to generate a complete puzzle based on the specified difficulty. The GET /sudoku endpoint accepts a difficulty parameter and returns a Sudoku puzzle as a JSON response.
 
